@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgnesaShoppingCenter</title>
+    <link rel="shortcut icon" href="22.jpg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preload" as="image" href="hero-bg.jpg">
+    <link rel="preload" as="image" href="vava.jpg">
+    <link rel="preload" as="image" href="ari.jpg">
+    <link rel="preload" as="image" href="320972438_3406701212903652_3955552253468156977_n.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Pjesa e Header-->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.jpg" alt="Logo" width="74" height="24" class="logo-light">
+                <img src="logo.jpg" alt="Logo" width="74" height="24" class="logo-dark">
+
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="logo.jpg" alt="Agnesa" width="74" height="24">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Products</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Contant</a>
+                    </li>
+                </ul>
+                <div class="wrapper">
+                    <a href="mailto:info@agnesagroup.com" class="contant-link">info@agnesagroup.com</a>
+                    <a href="tel:049-470-861" class="contant-link">+383-49-470-861</a>
+                </div>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                         <ion-icon name="logo-twitter"></ion-icon>   
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/?locale=sq_AL" class="social-link">
+                         <ion-icon name="logo-facebook"></ion-icon>   
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/?locale=sq_AL" class="social-link">
+                         <ion-icon name="logo-tiktok"></ion-icon>   
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/agnesashoppingcenter/" class="social-link">
+                         <ion-icon name="logo-instagram"></ion-icon>   
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/agnesashoppingcenter/" class="social-link">
+                         <ion-icon name="logo-youtube"></ion-icon>   
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="info@agnesagroup.com" class="btn btn-primary">Contant us</a>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section class="section hero has-bg-image" aria-label="home"
+            style="background-image: url(stats-bg.jpg);">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="h1 hero-title">Agnesa Group</h1>
+                    <p class="hero-text">Ofrojme nje game te gjere te sherbimeve per klientet tane ne tregun
+                        e qendres tregtare,autosallon,restaurant,fabrika e tekstilit,distribucion
+                        dhe ferme
+                    </p>
+                    <div class="btn-wrapper"> 
+                        <a href="https://www.facebook.com/AgnesaShopping/?locale=sq_AL" class="btn btn-primary">Explore Now</a>
+                        <a href="info@agnesagroup.com" class="btn btn-outline">Contant Us</a>
+                    </div>  
+                </div>
+                <div class="hero-slider" data-slider>
+                    <div class="slider-inner">
+                        <ul class="slider-container" data-slider-container>
+                            <li class="slider-item">
+                                <figure class="img-holder" style="--width:575;--height:550;">
+                                    <img src="a.jpg" width="575" height="550" class="img-cover">
+                                </figure>
+                            </li>
+                            <li class="slider-item">
+                                <div class="hero-card">
+                                 <figure class="img-holder" style="--width:575; --height:550;">
+                                    <img src="vava.jpg" width="575" height="550" class="img-cover">
+                                 </figure>
+                                </div>
+                            </li>
+                            <li class="slider-item">
+                                <figure class="img-holder" style="--width:575; --height:550;">
+                                    <img src="arrii.jpg" width="575" height="550" class="img-cover">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="slider-btn prev" aria-label="slide to previous" data-slider-next>
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </button>
+                </div>
+            </div>
+            </section>
+            <!--Pjesa E sherbimeve-->
+            <section class="section service" aria-labelledby="service-label">
+                <div class="container">
+                    <p class="section-subtitle" id="service-label">Cfare ofrojme ne?</p>
+                    <h2 class="h2 section-title">
+                        Sherbimet qe ne ofrojme plotesojne mevojat e klienteve tane.
+                    </h2>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Agnesaa Market</h3>
+                                <p class="card-text">Kontaktoni info@agnesagroup.com</p>
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Sherbime te sigurta</h3>
+                                <p class="card-text">Siguri maksimale ne secilin departament</p>
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Produkte</h3>
+                                <p class="card-text">Produkte dhe sherbimete reja cdo dite</p>
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Tregu</h3>
+                                <p class="card-text">Agnesa Group 100% e Llapit
+                                    Korrektesi ne tregun e punes
+                                </p>
+                                <a href="#" class="btn-text">
+                                    <span class="span">Learn More</span>
+                                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Pjesa e About-->
+            <section class="about" aria-labelledby="about-label">
+                <div class="container">
+                    <figure class="about-banner">
+                        <img src="ab1.jpg" width="800" height="580" loading="lazy" class="w-100">
+                    </figure>
+                    <div class="about-content">
+                        <p class="section-subtitle">Pse Ne?</p>
+                        <h2 class="h2 section-title">
+                            Pervoje 22 vjecare na bene qe te ofrojme sherbimet me te mira
+                        </h2>
+                        <ul>
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                            <span class="span h5">Pervoja</span>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Me një përvojë të gjatë dhe të suksesshme në fushën e tregut, ne kemi njohur dhe kuptuar
+                                         nevojat e klientëve tanë në mënyrë të hollësishme. Përmes vlerësimit të kujdesshëm 
+                                         të tregut dhe analizës së tendencave të fundit, kemi zhvilluar një gamë të gjerë të 
+                                        produkteve dhe shërbimeve që plotësojnë dhe tejkalojnë pritjet e klientëve tanë.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                            <span class="span h5">Ekipa</span>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Ofrojmë shërbime të cilësisë së lartë dhe jemi përgatitur për të përmbushur kërkesat e një tregu
+                                        gjithnjë e më të kërkuar dhe të ndryshueshëm me një ekip të përkushtuar dhe të përgatitur mirë
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                            <span class="span h5">Pergaditje</span>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Ne jemi në hap me kohën dhe vazhdimisht përditësojmë gamën 
+                                        tonë të produkteve për të përmbushur standardet më të larta të cilësisë dhe inovacionit
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Sherbime-pjeset e kompanise group-->
+            <section class="section feature" aria-labelledby="feature-label">
+                <div class="container">
+                    <figure class="feature-banner">
+                        <img src="ab2.jpg" width="800" height="531" loading="lazy" class="w-100">
+                    </figure>
+                    <div class="feature-content">
+                        <p class="section-subtitle" id="feature-label">Sherbimet Tona</p>
+                        <h2 class="h2 section-title">Super Sherbime</h2>
+                        <p class="section-text">
+                            Përvoja jonë në fushën e tregut reflektohet në cilësinë e shërbimeve
+                             që ofrojmë, duke siguruar një standard të lartë të korrektësisë dhe efikasitetit.
+                        </p>
+                        <ul class="feature-list">
+                            <li>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+                                    <span class="span">Market Agnesa</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+                                    <span class="span">AutoSallon Ari</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+                                    <span class="span">Vava Brand</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="feature-card">
+                                    <div class="card-icon">
+                                        <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                                    </div>
+                                    <span class="span">Llapashtica Farm</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Pjesa e Statistikave-->
+            <section class="stats" aria-label="our stats">
+                <div class="container">
+                    <ul class="stats-card has-bg-image" style="background-image: url(stats-bg.jpg);">
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">30+</span>
+                                <span class="span">Sherbime</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">10.000+</span>
+                                <span class="span">Konsumatore te kenaqur</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">300+</span>
+                                <span class="span">Stafi</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">20+</span>
+                                <span class="span">Pervoje</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Shikoni me shume-info-->
+            <section class="section project" aria-labelledby="project-label">
+                <div class="container">
+                    <p class="section-subtitle">Me Shume</p>
+                    <h2 class="h2 section-title">Shikoni disa nga sherbimet tona</h2>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width:560;--height:350;">
+                                    <img src="ari.jpg" width="560" height="350" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3"><a href="#" class="card-title">AutoSallon ARI</a></h3>
+                                    <p class="card-text">Super vetura cilesore</p>
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                                            <time class="meta-text" datatime="2022-04-14">2020</time>
+                                        </li>
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                                            <span class="meta-text">Cars</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width:560;--height:350;">
+                                    <img src="vava.jpg" width="560" height="350" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3"><a href="#" class="card-title">Vava Brand</a></h3>
+                                    <p class="card-text">Fabrika e tekstilit</p>
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                                            <time class="meta-text" datatime="2022-04-14">2015</time>
+                                        </li>
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                                            <span class="meta-text">Tekstil</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-card">
+                                <figure class="card-banner img-holder" style="--width:560;--height:350;">
+                                    <img src="ab1.jpg" width="560" height="350" loading="lazy" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <h3 class="h3"><a href="#" class="card-title">Market Agnesa</a></h3>
+                                    <p class="card-text">Multi Sherbime</p>
+                                    <ul class="card-meta-list">
+                                        <li class="card-meta-item">
+                                            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                                            <time class="meta-text" datatime="2022-04-14">2000</time>
+                                        </li>
+                                        <li class="card-meta-item">
+                                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                                            <span class="meta-text">Grocery</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Pjesa E LABEL BRAND-->
+            <section class="cta" aria-label="call to action">
+                <div class="container">
+                    <h2 class="h2 section-title">
+                        AgnesaShoppingCenter 100% e Llapit
+                    </h2>
+                    <a href="#" class="btn btn-primary">Na Vizitoni</a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <!--Pjesa e fundit footer-->
+    <footer class="footer">
+        <div class="container grid-list">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="logo.jpg" width="74" height="24">
+                </a>
+                <p class="footer text">&copy;LABManagment_ <br>All rights reserved</p>
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/" class="social-link">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/agnesashoppingcenter/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/AgnesaShopping/" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Lokacioni</p>
+                </li>
+                <li>
+                    <address class="footer-text">Magjistralja Podujeve-Prishtine km 1-re</address>
+                </li>
+                <li>
+                    <a href="mailto:info@agnesagroup.com" class="footer-link">info@agnesagroup.com</a>
+                </li>
+                <li>
+                    <a href="tel:049470861" class="footer-link">+383-49-470-861</a>
+                </li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Learn More</p>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">About us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Our story</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Products</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Staf</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Policy</a>
+                </li>
+            </ul>
+            <div class="footer-list">
+                <p class="h4 footer-list-title">Fletushka</p>
+                <p class="footer-text">Abonohuni per te pare zbritjet me te fundit</p>
+                <form action="" class="input-wrapper">
+                    <input type="email" name="email" placeholder="Email address" required class="input-field">
+                    <button type="submit" class="submit-btn">Bashkangjitu</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!--Pjesa e JS dhe icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
